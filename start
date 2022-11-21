@@ -1,0 +1,12 @@
+#!/bin/bash
+#mv .Tomb Tomb
+currPath=$(pwd)
+echo $currPath
+clear
+echo "THE TEMPLE OF OSIRIS"
+
+cat .title
+#https://patorjk.com/software/taag/#p=testall&v=0&f=Epic&t=Temple%20Of%20Osiris
+#maybe some pyramid ascii art here
+echo -e "What is your name?"
+read $NAME
