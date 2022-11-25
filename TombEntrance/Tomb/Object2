@@ -1,0 +1,15 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+echo "
+
+You approach what appears to be a sun disk enclosed within a pair of cow horns. In your hands lays the Headdress of the goddess ${PURPLE}Isis${CLR}.
+
+
+=========================
+${ORANGE}Headdress${CLR} added to inventory!
+========================="
+
+mv Object2 .Object2

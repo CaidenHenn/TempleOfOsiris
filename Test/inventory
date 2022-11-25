@@ -1,0 +1,2 @@
+OBJ1STAT=1
+printenv OBJ1STAT

@@ -1,0 +1,3 @@
+#this is the jackal one
+#all the canopic files will be called with cat and will only have an image of the jar
+#the actual jar item that they pick up will call this file and will include all the actual necessary gameplay stuff

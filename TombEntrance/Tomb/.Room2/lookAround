@@ -1,0 +1,12 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+echo "
+
+Before you stands a grand room with four statue busts placed in the center. The busts rest upon a large sandstone slab. Along the back wall is another door that is sealed shut.
+
+Four more smaller statues each line a different wall of the room. Four statues-- a human, jackal, baboon, and falcon respectively.
+
+"

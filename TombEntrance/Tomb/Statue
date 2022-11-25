@@ -1,0 +1,9 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+BLUE=$(tput setaf 33)
+CLR=$(tput sgr0)
+
+echo "Within this room stands a ${PURPLE}Statue of Isis${CLR}, goddess of Fertility and wife of Osiris. She stands in an imposing figure with her head held high and arms posed raised up. She seems to be... ${BLUE}missing something${CLR}...? "
+
+#once player uses both items room will reveal
+#mv .Room2 Room2
