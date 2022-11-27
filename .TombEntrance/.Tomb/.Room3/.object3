@@ -11,5 +11,5 @@ You approach what seems to be a pair of beautiful multicolored wings. In your ha
 =========================
 ${ORANGE}Wings${CLR} added to inventory!
 ========================="
-#touch ../../../.playerInventory/Wings
-#mv Object .Object
+touch ../../../.playerInventory/Wings
+

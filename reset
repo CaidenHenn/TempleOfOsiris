@@ -1,9 +1,26 @@
 mv TombEntrance .TombEntrance
 mv .TombEntrance/Tomb .TombEntrance/.Tomb
-
+mv .TombEntrance/.Tomb/statue .TombEntrance/.Tomb/.statue
 mv .TombEntrance/.Tomb/Room1 .TombEntrance/.Tomb/.Room1
+mv .TombEntrance/.Tomb/Room2 .TombEntrance/.Tomb/.Room2
+mv .TombEntrance/.Tomb/Room3 .TombEntrance/.Tomb/.Room3
+
+mv .TombEntrance/.Tomb/.Room1/object1 .TombEntrance/.Tomb/.Room1/.object1
+mv .TombEntrance/.Tomb/.Room2/object2 .TombEntrance/.Tomb/.Room2/.object2
+mv .TombEntrance/.Tomb/.Room3/object3 .TombEntrance/.Tomb/.Room3/.object3
+
+
+
 mv .TombEntrance/.Tomb/Room2 .TombEntrance/.Tomb/.Room2
 mv .TombEntrance/.Tomb/Room3 .TombEntrance/.Tomb/.Room3
 mv .TombEntrance/.Tomb/Tomb2 .TombEntrance/.Tomb/.Tomb2
 
 mv .TombEntrance/.Tomb/.Tomb2/Tomb3 .TombEntrance/.Tomb/.Tomb2/.Tomb3
+
+mv .TombEntrance/.Tomb/.Tomb2/.Tomb3/hieroglyph1 .TombEntrance/.Tomb/.Tomb2/.Tomb3/.hieroglyph1
+mv .TombEntrance/.Tomb/.Tomb2/.Tomb3/hieroglyph2 .TombEntrance/.Tomb/.Tomb2/.Tomb3/.hieroglyph2
+mv .TombEntrance/.Tomb/.Tomb2/.Tomb3/hieroglyph3 .TombEntrance/.Tomb/.Tomb2/.Tomb3/.hieroglyph3
+
+rm /.playerInventory/Clayshards
+rm /.playerInventory/Headdress
+rm /.playerInventory/Wings

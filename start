@@ -1,10 +1,14 @@
  #!/bin/bash
 currPath=$(pwd)
 echo $currPath
+./reset
+
+rm .playerInventory/ClayShards
+rm .playerInventory/Headdress
+rm .playerInventory/Wings
 clear
-
-chmod u+x .TombEntrance/lookAround
-
+chmod u+x permissions
+chmod u+x reset
 
 
 
@@ -21,6 +25,8 @@ cat .title
 select option in Play Readme Quit; do
 	case $option in
 		"Play")
+
+./permissions
     mv .TombEntrance TombEntrance
 			break
 		;;
@@ -47,7 +53,8 @@ Use the command cat to read in-game hints.
 Use the command cd to move rooms.
 Places are written in uppercase letters
 Actions the player can take are written in lowercase letters and can executed using ./action.
-Explore a new area using ./lookAround"
+Explore a new area using ./lookAround
+To start, do cd TombEntrance"
 
 #OBJECT STATS
 PS1="2"

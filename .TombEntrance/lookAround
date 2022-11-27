@@ -3,7 +3,8 @@ YELLOW=$(tput setaf 190)
 CLR=$(tput sgr0)
 
 
-echo "Before you stands the entrance of the mighty ${YELLOW}Tomb of Osiris${CLR}. Sat beside the doorway sits two enormous statues of the God of the Dead. An inscription lay at the base of each statue."
+echo "Before you stands the entrance of the mighty ${YELLOW}Tomb of Osiris${CLR}. Sat beside the doorway sits two enormous statues of the God of the Dead. 
+An inscription lay at the base of each statue."
 
 
 mv .Tomb Tomb

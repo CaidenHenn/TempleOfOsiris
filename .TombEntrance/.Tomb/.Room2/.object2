@@ -11,5 +11,4 @@ You approach what appears to be a sun disk enclosed within a pair of cow horns. 
 =========================
 ${ORANGE}Headdress${CLR} added to inventory!
 ========================="
-#touch ../../../.playerInventory/Headdress
-#mv Object .Object
+touch ../../../.playerInventory/Headdress

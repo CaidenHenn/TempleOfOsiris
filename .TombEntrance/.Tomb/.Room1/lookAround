@@ -3,7 +3,6 @@ PURPLE=$(tput setaf 99)
 ORANGE=$(tput setaf 208)
 CLR=$(tput sgr0)
 
-echo "It's a small room with little inside. There seems to be a sign posted to one of the walls."
+echo "It's a small room with little inside."
 
-mv .Object1 Object1
-mv .Sign Sign
+mv .object1 object1
