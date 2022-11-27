@@ -1,0 +1,7 @@
+#!/bin/bash
+RED=$(tput setaf 124)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+#cat .imeCan
+echo "${RED}Qebehsenuef${CLR}, another son of Horus, is associated with the West cardinal direction. He looks like he could use a bite to eat. Poor guy."

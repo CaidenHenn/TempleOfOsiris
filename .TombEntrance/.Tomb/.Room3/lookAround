@@ -1,0 +1,9 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+echo "It's a small cluttered room with objects and trinkets littered on the floor. There seems to be a sign placed on one of the walls."
+
+mv .Object3 Object3
+mv .Sign Sign

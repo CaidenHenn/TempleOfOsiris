@@ -1,0 +1,7 @@
+#!/bin/bash
+RED=$(tput setaf 124)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+#cat .hapCan
+echo "${RED}Hapi${CLR}, one of the sons of Horus, is also associated with the North cardinal direction. Despite the depth of which you stand, the air feels clear and light beside this statue."

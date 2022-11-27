@@ -1,0 +1,15 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+RED=$(tput setaf 124)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+echo "
+
+Before you stands a grand room with four statue busts placed in the center. The busts rest upon a large sandstone slab. As you approach the busts you recognize the figures. The gods are the four sons of Horus-- ${RED}Imetsy${CLR}, ${RED}Duamutef${CLR}, ${RED}Hapi${CLR}, and ${RED}Qebehsenuef${CLR} respectively. They are intended to protect specific organs of the deceased, yet their ${ORANGE}canopic jars${CLR} seem to be placed out of order...
+
+Along the back wall is another door that is sealed shut.
+
+Four more smaller statues each line a different wall of the room. Four statues-- a human, jackal, baboon, and falcon respectively.
+
+"

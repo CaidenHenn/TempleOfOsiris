@@ -1,0 +1,6 @@
+mv TombEntrance .TombEntrance
+mv .TombEntrance/Tomb .TombEntrance/.Tomb
+
+
+
+mv .TombEntrance/.Tomb/Tomb2 .TombEntrance/.Tomb/.Tomb2

@@ -1,0 +1,10 @@
+#!/bin/bash
+RED=$(tput setaf 124)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+#cat .duaCan
+
+echo "${RED}Duamutef${CLR}, one of the sons of Horus, is associated with the East cardinal direction. If I remember correctly... he had the head of a Jackal so he should have long ears, right...?" 
+
+

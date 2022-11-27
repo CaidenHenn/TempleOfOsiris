@@ -3,8 +3,8 @@ currPath=$(pwd)
 echo $currPath
 clear
 
-chmod u+x ${currPath}/TombEntrance/lookAround
-chmod u+x ${currPath}/TombEntrance/Heiroglyph
+chmod u+x .TombEntrance/lookAround
+
 
 
 
@@ -21,20 +21,7 @@ cat .title
 select option in Play Readme Quit; do
 	case $option in
 		"Play")
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-    #mv .Tomb Tomb
+    mv .TombEntrance TombEntrance
 			break
 		;;
 		"Readme")
@@ -55,11 +42,12 @@ echo "You are the world's leading ${YELLOW}egyptologist${CLR}"
 echo "Right now represents the defining moment of your career!"
 echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 
+echo "Use the command ls to see the options available.
+\nUse the command cat to read in-game hints.
+\nUse the command cd to move rooms.
+\nPlaces are written in uppercase letters
+\nActions the player can take are written in lowercase letters."
+
 #OBJECT STATS
-export OBJ1STAT
-export OBJ2STAT
-export OBJ3STAT
-OBJ1STAT=0
-OBJ2STAT=0
-OBJ3STAT=0
+PS1="2"
 #https://patorjk.com/software/taag/#p=display&f=Hieroglyphs&t=

@@ -1,0 +1,43 @@
+#!/bin/bash
+currPath=$(pwd)
+
+: << 'HIEROGLYPH'
+,-. ,-~~\             ,-~~\            
+| |  (   \             (   \           
+| '   |\. \   .-==-.    |\. \          
+|    _]_]`\\ /______\  _]_]`\\ ^^^^^^^ 
+HIEROGLYPH
+
+#USE YOUR TRANSLATOR TO UNVEIL THESE GLYPHS BY DELETING THE # ON THE NEXT LINE
+#mv .Translatedglyph Translatedglyph
+
+
+
+
+#https://patorjk.com/software/taag/#p=display&f=Hieroglyphs&t=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

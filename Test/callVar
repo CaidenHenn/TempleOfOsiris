@@ -1,0 +1,2 @@
+source <(grep -E "^[0-9A-Za-z]+=" vars)
+echo $var1

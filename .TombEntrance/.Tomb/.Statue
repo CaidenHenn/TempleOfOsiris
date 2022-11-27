@@ -1,0 +1,36 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+BLUE=$(tput setaf 33)
+CLR=$(tput sgr0)
+
+echo "Within this room stands a ${PURPLE}Statue of Isis${CLR}, goddess of Fertility and wife of Osiris. She stands in an imposing figure with her head held high and arms posed raised up. She seems to be... ${BLUE}missing something${CLR}...? "
+
+#once player uses both items room will reveal
+echo "Do you wish to offer your items?"
+
+select option in Yes No;  do
+case $option in
+
+"Yes"|"yes")
+ 
+  FILE1=../../.playerInventory/ClayShards
+  FILE2=../../.playerInventory/Headress
+  FILE3=../../.playerInventory/Wings
+if [ "$FILE2" = '../../.playerInventory/Headress' ] && [ "$FILE3" = '../../.playerInventory/Wings' ]; then
+    echo "Your offerings of a ${PURPLE}Headress${CLR} and ${PURPLE}Wings${CLR} have been accepted by the gods. You may move on."
+mv .Tomb2 Tomb2
+fi
+break
+    ;;
+
+"No"|"no")
+  echo "Use Ctrl+D to exit"
+    ;;
+
+ 
+
+  *)
+   echo ""
+    ;;
+esac
+done
