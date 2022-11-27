@@ -1,6 +1,9 @@
 mv TombEntrance .TombEntrance
 mv .TombEntrance/Tomb .TombEntrance/.Tomb
 
-
-
+mv .TombEntrance/.Tomb/Room1 .TombEntrance/.Tomb/.Room1
+mv .TombEntrance/.Tomb/Room2 .TombEntrance/.Tomb/.Room2
+mv .TombEntrance/.Tomb/Room3 .TombEntrance/.Tomb/.Room3
 mv .TombEntrance/.Tomb/Tomb2 .TombEntrance/.Tomb/.Tomb2
+
+mv .TombEntrance/.Tomb/.Tomb2/Tomb3 .TombEntrance/.Tomb/.Tomb2/.Tomb3

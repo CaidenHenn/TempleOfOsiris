@@ -1,0 +1,11 @@
+#!/bin/bash
+PURPLE=$(tput setaf 99)
+RED=$(tput setaf 124)
+ORANGE=$(tput setaf 208)
+CLR=$(tput sgr0)
+
+echo "
+
+You are four sided room with three of walls covered in hieroglyphs. In the middle of the wall farthest away from you, there is also a ${ORANGE}lever${CLR} and a ${ORANGE}door${CLR}.
+
+"

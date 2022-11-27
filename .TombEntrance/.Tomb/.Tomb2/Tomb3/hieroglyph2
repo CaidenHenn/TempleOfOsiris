@@ -1,7 +1,11 @@
+#!/bin/bash
 
+: << 'HIEROGLYPH'
 
                                     ;. 
          ||  \/        ____   ___  ; | 
 ....     || `-'_       /  \  |   | `.| 
 `=.`''===.'     `---. /_/\_\ | |_|   | 
-
+HIEROGLYPH
+#USE YOUR TRANSLATOR TO UNVEIL THESE GLYPHS BY DELETING THE # ON THE NEXT LINE
+#mv .translatedglyph3 translatedglyph3

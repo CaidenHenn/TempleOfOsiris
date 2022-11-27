@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 currPath=$(pwd)
 echo $currPath
 clear
@@ -43,10 +43,11 @@ echo "Right now represents the defining moment of your career!"
 echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 
 echo "Use the command ls to see the options available.
-\nUse the command cat to read in-game hints.
-\nUse the command cd to move rooms.
-\nPlaces are written in uppercase letters
-\nActions the player can take are written in lowercase letters."
+Use the command cat to read in-game hints.
+Use the command cd to move rooms.
+Places are written in uppercase letters
+Actions the player can take are written in lowercase letters and can executed using ./action.
+Explore a new area using ./lookAround"
 
 #OBJECT STATS
 PS1="2"
