@@ -2,8 +2,11 @@
 PURPLE=$(tput setaf 99)
 BLUE=$(tput setaf 33)
 CLR=$(tput sgr0)
+PWD=$(pwd)
+VAR=2
 
 echo "Within this room stands a ${PURPLE}Statue of Isis${CLR}, goddess of Fertility and wife of Osiris. She stands in an imposing figure with her head held high and arms posed raised up. She seems to be... ${BLUE}missing something${CLR}...? "
+test -f .playerInventory/Wings && echo "$FILE exists."
 
 #once player uses both items room will reveal
 echo "Do you wish to offer your items?"
@@ -13,17 +16,24 @@ case $option in
 
 "Yes"|"yes")
  
-  FILE1=../../.playerInventory/ClayShards
-  FILE2=../../.playerInventory/Headress
-  FILE3=../../.playerInventory/Wings
-if [ "$FILE2" = '../../.playerInventory/Headress' ] && [ "$FILE3" = '../../.playerInventory/Wings' ]; then
+  FILE1=ClayShards
+  FILE2=/home/runner/TempleOfOsiris/.playerInventory/Headdress
+  FILE3=/home/runner/TempleOfOsiris/.playerInventory/Wings
+
+if [ -f "$FILE2" -a -f "$FILE3" ]; then
     echo "Your offerings of a ${PURPLE}Headress${CLR} and ${PURPLE}Wings${CLR} have been accepted by the gods. You may move on."
-mv .Tomb2 Tomb2
+mv .Chamber2 Chamber2
+else
+echo "You do not have what Isis demands of you. Tread lightly or you shall be banished."
+((STATUELIVES--))
+echo "You have $STATUELIVES more attempts"
+ echo "Use Ctrl+D to exit"
 fi
-break
+
     ;;
 
 "No"|"no")
+echo "You chose not to offer anything."
   echo "Use Ctrl+D to exit"
     ;;
 

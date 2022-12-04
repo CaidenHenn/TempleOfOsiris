@@ -15,6 +15,7 @@ chmod u+x reset
 
 
 YELLOW=$(tput setaf 190)
+BLUE=$(tput setaf 12)
 CLR=$(tput sgr0)
 
 
@@ -25,13 +26,15 @@ cat .title
 select option in Play Readme Quit; do
 	case $option in
 		"Play")
-
+export STATUELIVES=3
+export JARLIVES=3
+export HIEROLIVES=3
 ./permissions
     mv .TombEntrance TombEntrance
 			break
 		;;
 		"Readme")
-			cat Readme
+			cat readme.txt
 		;;
 		"Quit")
 			exit
@@ -48,13 +51,13 @@ echo "You are the world's leading ${YELLOW}egyptologist${CLR}"
 echo "Right now represents the defining moment of your career!"
 echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 
-echo "Use the command ls to see the options available.
-Use the command cat to read in-game hints.
-Use the command cd to move rooms.
+echo "Use the command ${BLUE}ls${CLR} to see the options available.
+Use the command ${BLUE}cat${CLR} to read in-game hints.
+Use the command ${BLUE}cd${CLR} to move rooms.
 Places are written in uppercase letters
-Actions the player can take are written in lowercase letters and can executed using ./action.
-Explore a new area using ./lookAround
-To start, do cd TombEntrance"
+Actions the player can take are written in lowercase letters and can executed using ./(actionName).
+Explore a new area using ${BLUE}./lookAround${CLR}
+To start, do ${BLUE}cd TombEntrance${CLR}"
 
 #OBJECT STATS
 PS1="2"

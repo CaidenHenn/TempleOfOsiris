@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Within these walls is the phrase to safely pass"
+echo "Within these walls is the phrase to safely pass."
 echo "Enter phrase?"
 select option in Yes No;  do
 case $option in
@@ -7,7 +7,7 @@ case $option in
 "Yes"|"yes")
  read -p "Enter the phrase
 " phrase
-  if [ "$phrase" = 'Suffering in search of truth gives true meaning to the truth' ]; then
+  if [ "$phrase" = 'Suffering in search of truth gives true meaning to the truth.' ]; then
     echo "Your words speak great truths. You may carry on."\
     echo "Tomb of Osiris has been opened."
 mv .TombOfOsiris TombOfOsiris

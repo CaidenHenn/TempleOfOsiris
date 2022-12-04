@@ -8,4 +8,8 @@
 `=.`''===.'     `---. /_/\_\ | |_|   | 
 HIEROGLYPH
 #USE YOUR TRANSLATOR TO UNVEIL THESE GLYPHS BY DELETING THE # ON THE NEXT LINE
-#mv .translatedglyph3 translatedglyph3
+#CHANGE TO INSERT MODE WITH I
+#CONFIRM WITH ESC KEY, 'wq!", ENTER KEY
+mv .translatedglyph3 translatedglyph3
+
+#USE cat TO READ TRANSLATED GLYPHS
