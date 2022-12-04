@@ -19,12 +19,13 @@ case $option in
 "Yes"|"yes")
  
   FILE1=ClayShards
-  FILE2=/home/runner/TempleOfOsiris/.playerInventory/Headdress
-  FILE3=/home/runner/TempleOfOsiris/.playerInventory/Wings
+  FILE2=../../.playerInventory/Headdress
+  FILE3=../../.playerInventory/Wings
 
 if [ -f "$FILE2" -a -f "$FILE3" ]; then
     echo "Your offerings of a ${PURPLE}Headress${CLR} and ${PURPLE}Wings${CLR} have been accepted by the gods. You may move on."
 mv .Chamber2 Chamber2
+break
 else
 echo "You do not have what Isis demands of you. Tread lightly or you shall be ${RED}punished${CLR}."
 
@@ -43,9 +44,9 @@ if ((value >= maxRuns)); then
 
     echo "You have came to me multiple times and failed to offer anything of value. You died. Type . start to retry"
 
-   
-
-    exit
+   cd ../..
+ 
+    break
 else
     newValue=$((value + 1))
     echo $newValue > "$runCountFile"

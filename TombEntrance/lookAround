@@ -10,3 +10,5 @@ Use ${BLUE}$ ls${CLR} to see what you have found"
 
 
 mv .Chamber1 Chamber1
+mv .hint hint
+mv .CatTheHint CatTheHint

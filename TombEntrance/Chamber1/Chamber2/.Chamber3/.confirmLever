@@ -13,6 +13,30 @@ case $option in
 mv .TombOfOsiris TombOfOsiris
     else
   echo "You did not enter the correct phrase." 
+runCountFile="numOfRuns.txt"
+maxRuns=2
+
+if [ -e "$runCountFile" ]; then
+    read value < "$runCountFile"
+else
+    value=0
+fi
+
+if ((value >= maxRuns)); then
+    
+  #send back to begining
+
+    echo "You died."
+
+    cd ../../..
+    break
+else
+    newValue=$((value + 1))
+    echo $newValue > "$runCountFile"
+    fileread=$newValue
+fi 
+echo "Attempt ${fileread} out of 3"
+ echo "Use Ctrl+D to exit"
 fi
 break
     ;;

@@ -1,13 +1,13 @@
 RED=$(tput setaf 124)
 CLR=$(tput sgr0)
 
-FILE1=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Duamutef/stomachJar
+FILE1=Duamutef/stomachJar
 
-FILE2=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Imetsy/liverJar
+FILE2=Imetsy/liverJar
 
-FILE3=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Hapi/lungsJar
+FILE3=Hapi/lungsJar
 
-FILE4=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Qebehsenuef/intestinesJar
+FILE4=Qebehsenuef/intestinesJar
 
 if [[ -f "$FILE1" &&  -f "$FILE2" &&  -f "$FILE3"  &&  -f "$FILE4" ]]; then
     echo "The gods appreciate your efforts and grant you safe passage on."
@@ -34,7 +34,11 @@ if ((value >= maxRuns)); then
     echo "You died."
 
     cd ../../..
-    exit
+    break
+else
+    newValue=$((value + 1))
+    echo $newValue > "$runCountFile"
+    fileread=$newValue
 fi 
 echo "Attempt ${fileread} out of 3"
  echo "Use Ctrl+D to exit"

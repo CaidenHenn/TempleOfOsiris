@@ -25,6 +25,7 @@ mv .TombEntrance/.Chamber1/.Chamber2/Duamutef .TombEntrance/.Chamber1/.Chamber2/
 mv .TombEntrance/.Chamber1/.Chamber2/Hapi .TombEntrance/.Chamber1/.Chamber2/.Hapi
 mv .TombEntrance/.Chamber1/.Chamber2/Imsety .TombEntrance/.Chamber1/.Chamber2/.Imsety
 mv .TombEntrance/.Chamber1/.Chamber2/Qebehsenuef .TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef
+mv .TombEntrance./.Chamber1/.Chamber2/resetLever .TombEntrance./.Chamber1/.Chamber2/.resetLever
 #Duamutef Room
 DUAINT=.TombEntrance/.Chamber1/.Chamber2/.Duamutef/intestinesJar
 DUALIV=.TombEntrance/.Chamber1/.Chamber2/.Duamutef/liverJar
@@ -99,7 +100,7 @@ if [ -f "$QESTO" ]; then
 fi
 
 
-
+clear
 
 
 
@@ -119,8 +120,8 @@ mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/TombOfOsiris .TombEntrance/.Chamb
 rm /.playerInventory/Clayshards
 rm /.playerInventory/Headdress
 rm /.playerInventory/Wings
-
-
-
+echo 0 > .TombEntrance/.Chamber1/.numOfRuns.txt
+echo 0 > .TombEntrance/.Chamber1/.Chamber2/.numOfRuns.txt
+echo 0 > .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.numOfRuns.txt
 
 clear
