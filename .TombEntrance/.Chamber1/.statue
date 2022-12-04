@@ -3,7 +3,8 @@ PURPLE=$(tput setaf 99)
 BLUE=$(tput setaf 33)
 RED=$(tput setaf 124)
 CLR=$(tput sgr0)
-PWD=$(pwd)
+currPath=$(pwd)
+
 VAR=2
 
 echo "Within this room stands a ${PURPLE}Statue of Isis${CLR}, goddess of Fertility and wife of Osiris. She stands in an imposing figure with her head held high and arms posed raised up. She seems to be... ${BLUE}missing something${CLR}...? "
@@ -26,8 +27,32 @@ if [ -f "$FILE2" -a -f "$FILE3" ]; then
 mv .Chamber2 Chamber2
 else
 echo "You do not have what Isis demands of you. Tread lightly or you shall be ${RED}punished${CLR}."
-((STATUELIVES--))
-echo "You have $STATUELIVES more attempts"
+
+runCountFile=".numOfRuns.txt"
+maxRuns=2
+
+if [ -e "$runCountFile" ]; then
+    read value < "$runCountFile"
+else
+    value=0
+fi
+
+if ((value >= maxRuns)); then
+    
+  #send back to begining
+
+    echo "You have came to me multiple times and failed to offer anything of value. You died. Type . start to retry"
+
+   
+
+    exit
+else
+    newValue=$((value + 1))
+    echo $newValue > "$runCountFile"
+    fileread=$newValue
+fi
+
+echo "Attempt ${fileread} out of 3"
  echo "Use Ctrl+D to exit"
 fi
 

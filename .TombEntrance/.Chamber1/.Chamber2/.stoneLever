@@ -16,5 +16,25 @@ if [[ -f "$FILE1" &&  -f "$FILE2" &&  -f "$FILE3"  &&  -f "$FILE4" ]]; then
     
   
 else
+
 echo "You have not placed the jars to the correct gods. Be careful or you will be ${RED}punished${CLR}."
+runCountFile="numOfRuns.txt"
+maxRuns=2
+
+if [ -e "$runCountFile" ]; then
+    read value < "$runCountFile"
+else
+    value=0
+fi
+
+if ((value >= maxRuns)); then
+    
+  #send back to begining
+
+    echo "You died."
+
+    cd ../../..
+    exit
 fi 
+echo "Attempt ${fileread} out of 3"
+ echo "Use Ctrl+D to exit"

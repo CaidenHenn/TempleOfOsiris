@@ -12,12 +12,13 @@ case $option in
     echo "Tomb of Osiris has been opened."
 mv .TombOfOsiris TombOfOsiris
     else
-  echo "You did not enter the correct phrase."stop typing 
+  echo "You did not enter the correct phrase." 
 fi
 break
     ;;
 
 "No"|"no")
+echo "You chose not to enter a phrase."
   echo "Use Ctrl+D to exit"
     ;;
 

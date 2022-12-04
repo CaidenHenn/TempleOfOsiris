@@ -12,3 +12,5 @@ You are four sided room with three of walls covered in hieroglyphs. In the middl
 mv .hieroglyph1 hieroglyph1
 mv .hieroglyph2 hieroglyph2
 mv .hieroglyph3 hieroglyph3
+
+mv .confirmLever confirmLever

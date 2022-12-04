@@ -1,7 +1,7 @@
  #!/bin/bash
 currPath=$(pwd)
 echo $currPath
-./reset
+. reset
 
 rm .playerInventory/ClayShards
 rm .playerInventory/Headdress
@@ -64,9 +64,10 @@ echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 echo "Use the command ${BLUE}ls${CLR} to see the options available.
 Use the command ${BLUE}cat${CLR} to read in-game hints.
 Use the command ${BLUE}cd${CLR} to move rooms.
+Use the command ${BLUE}pwd${CLR} to see where you are.
 Places are written in uppercase letters
-Actions the player can take are written in lowercase letters and can executed using ./(actionName).
-Explore a new area using ${BLUE}./lookAround${CLR}
+Actions the player can take are written in lowercase letters and can executed using . (actionName).
+Explore a new area using ${BLUE}. lookAround${CLR}
 To start, do ${BLUE}cd TombEntrance${CLR}"
 
 #OBJECT STATS
