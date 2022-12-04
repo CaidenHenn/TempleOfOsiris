@@ -1,11 +1,12 @@
 #!/bin/bash
 YELLOW=$(tput setaf 190)
+BLUE=$(tput setaf 12)
 CLR=$(tput sgr0)
 
 
 echo "Before you stands the entrance of the mighty ${YELLOW}Tomb of Osiris${CLR}. Sat beside the doorway sits two enormous statues of the God of the Dead. 
 An inscription lay at the base of each statue.
-Use $ ls to see what you have found"
+Use ${BLUE}$ ls${CLR} to see what you have found"
 
 
 mv .Chamber1 Chamber1

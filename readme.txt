@@ -1,4 +1,4 @@
-cat Welcome to LARK
+Welcome to LARK
 >>>>>>>the Linux Activity to Reinforce Knowledge
 
 Name of game: Temple of Osiris

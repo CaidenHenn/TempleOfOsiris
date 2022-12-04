@@ -6,7 +6,7 @@ CLR=$(tput sgr0)
 
 echo "
 
-You are four sided room with three of walls covered in hieroglyphs. In the middle of the wall farthest away from you, there is also a ${ORANGE}lever${CLR} and a ${ORANGE}door${CLR}.
+You are four sided room with three of walls covered in hieroglyphs. In the middle of the wall furthest from you, there is a ${ORANGE}lever${CLR} and a blocked ${ORANGE}door${CLR}.
 
 "
 mv .hieroglyph1 hieroglyph1

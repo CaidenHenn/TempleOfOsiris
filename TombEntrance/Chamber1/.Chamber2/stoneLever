@@ -1,3 +1,6 @@
+RED=$(tput setaf 124)
+CLR=$(tput sgr0)
+
 FILE1=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Duamutef/stomachJar
 
 FILE2=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Imetsy/liverJar
@@ -8,10 +11,10 @@ FILE4=/home/runner/TempleOfOsiris/TombEntrance/Chamber1/Chamber2/Qebehsenuef/int
 
 if [[ -f "$FILE1" &&  -f "$FILE2" &&  -f "$FILE3"  &&  -f "$FILE4" ]]; then
     echo "The gods appreciate your efforts and grant you safe passage on."
-    echo "Tomb 3 has opened up"
+    echo "The slab blocking your entrance to the third chamber began to rise, revealing an open doorway."
     mv .Chamber3 Chamber3
     
   
 else
-echo "Is this a joke to you? Try again."
+echo "You have not placed the jars to the correct gods. Be careful or you will be ${RED}punished${CLR}."
 fi 

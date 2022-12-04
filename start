@@ -9,8 +9,18 @@ rm .playerInventory/Wings
 clear
 chmod u+x permissions
 chmod u+x reset
+export STATUELIVES
+export JARLIVES
+export HIEROLIVES
 
 
+#Change the texts for if you fail
+#put lives for chamber levels (Chamber2)
+#put lives for chamber levels (Chamber 3)
+#test if jars reset
+#test if stuff hides when reset
+#make hints more dummy friendly
+#add more color coded commands or important text
 
 
 
@@ -26,9 +36,9 @@ cat .title
 select option in Play Readme Quit; do
 	case $option in
 		"Play")
-export STATUELIVES=3
-export JARLIVES=3
-export HIEROLIVES=3
+STATUELIVES=3
+JARLIVES=3
+HIEROLIVES=3
 ./permissions
     mv .TombEntrance TombEntrance
 			break
