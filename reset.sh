@@ -13,7 +13,7 @@ mv .TombEntrance/.Chamber1/Room3 .TombEntrance/.Chamber1/.Room3
 mv .TombEntrance/.Chamber1/.Room1/object1 .TombEntrance/.Chamber1/.Room1/.object1
 mv .TombEntrance/.Chamber1/.Room2/object2 .TombEntrance/.Chamber1/.Room2/.object2
 mv .TombEntrance/.Chamber1/.Room3/object3 .TombEntrance/.Chamber1/.Room3/.object3
-
+mv .TombEntrance/hint .TombEntrance/.hint
 
 
 mv .TombEntrance/.Chamber1/Room2 .TombEntrance/.Chamber1/.Room2
@@ -114,7 +114,7 @@ mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/translatedglyph2 .TombEntrance/.C
 mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/translatedglyph3 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.translatedglyph3
 
 mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/confirmLever .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.confirmLever
-
+mv .TombEntrance/.Chamber1/.Chamber2/resetLever .TombEntrance/.Chamber1/.Chamber2/.resetLever
 mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/TombOfOsiris .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.TombOfOsiris
 rm /.playerInventory/Clayshards
 rm /.playerInventory/Headdress
@@ -126,4 +126,11 @@ echo 0 > .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.numOfRuns.txt
 cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh1 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph1
 cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh2 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph2
 cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh3 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph3
-clear
+
+mv .TombEntrance/.lookAround .TombEntrance/.lookAround
+mv .TombEntrance/.Chamber1/.lookAround .TombEntrance/.Chamber1/.lookAround
+mv .TombEntrance/.Chamber1/.Room1/.lookAround .TombEntrance/.Chamber1/.Room1/lookAround
+mv .TombEntrance/.Chamber1/.Room2/.lookAround .TombEntrance/.Chamber1/.Room2/lookAround
+mv .TombEntrance/.Chamber1/.Room3/.lookAround .TombEntrance/.Chamber1/.Room3/lookAround
+mv .TombEntrance/.Chamber1/.Chamber2/.lookAround .TombEntrance/.Chamber1/.Chamber2/lookAround
+mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.lookAround .TombEntrance/.Chamber1/.Chamber2/.Chamber3/lookAround

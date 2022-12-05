@@ -24,4 +24,4 @@ mv .lungsJar lungsJar
 mv .stomachJar stomachJar
 
 mv .stoneLever stoneLever
-
+mv .resetLever resetLever

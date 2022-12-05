@@ -11,6 +11,7 @@ case $option in
     echo "Your words speak great truths. You may carry on."\
     echo "Tomb of Osiris has been opened."
 mv .TombOfOsiris TombOfOsiris
+ break
     else
   echo "You did not enter the correct phrase." 
 runCountFile="numOfRuns.txt"

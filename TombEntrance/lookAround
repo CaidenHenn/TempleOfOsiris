@@ -1,4 +1,4 @@
-. re#!/bin/bash
+#!/bin/bash
 YELLOW=$(tput setaf 190)
 BLUE=$(tput setaf 12)
 CLR=$(tput sgr0)
@@ -11,4 +11,3 @@ Use ${BLUE}$ ls${CLR} to see what you have found"
 
 mv .Chamber1 Chamber1
 mv .hint hint
-mv .CatTheHint CatTheHint
