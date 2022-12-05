@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 STATUELIVES=0
 JARLIVES=0
 HIEROLIVES=0
@@ -39,68 +39,67 @@ if [ -f "$DUALIV" ]; then
     mv .TombEntrance/.Chamber1/.Chamber2/.Duamutef/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
 fi
 if [ -f "$DUALUN" ]; then
-   mv .TombEntrance/.Chamber1/.Chamber2/Duamutef/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
+   mv .TombEntrance/.Chamber1/.Chamber2/.Duamutef/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
 fi
 if [ -f "$DUASTO" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Duamutef/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Duamutef/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
 fi
 #Hapi Room
-HAPINT=.TombEntrance/.Chamber1/.Chamber2/Hapi/intestinesJar
-HAPLIV=.TombEntrance/.Chamber1/.Chamber2/Hapi/liverJar
-HAPLUN=.TombEntrance/.Chamber1/.Chamber2/Hapi/lungsJar
-HAPSTO=.TombEntrance/.Chamber1/.Chamber2/Hapi/stomachJar
+HAPINT=.TombEntrance/.Chamber1/.Chamber2/.Hapi/intestinesJar
+HAPLIV=.TombEntrance/.Chamber1/.Chamber2/.Hapi/liverJar
+HAPLUN=.TombEntrance/.Chamber1/.Chamber2/.Hapi/lungsJar
+HAPSTO=.TombEntrance/.Chamber1/.Chamber2/.Hapi/stomachJar
 
 if [ -f "$HAPINT" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Hapi/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Hapi/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
 fi
 if [ -f "$HAPLIV" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Hapi/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Hapi/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
 fi
 if [ -f "$HAPLUN" ]; then
-   mv .TombEntrance/.Chamber1/.Chamber2/Hapi/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
+   mv .TombEntrance/.Chamber1/.Chamber2/.Hapi/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
 fi
 if [ -f "$HAPSTO" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Hapi/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Hapi/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
 fi
 #Imsety Room
-IMINT=.TombEntrance/.Chamber1/.Chamber2/Imsety/intestinesJar
-IMLIV=.TombEntrance/.Chamber1/.Chamber2/Imsety/liverJar
-IMLUN=.TombEntrance/.Chamber1/.Chamber2/Imsety/lungsJar
-IMSTO=.TombEntrance/.Chamber1/.Chamber2/Imsety/stomachJar
+IMINT=.TombEntrance/.Chamber1/.Chamber2/.Imsety/intestinesJar
+IMLIV=.TombEntrance/.Chamber1/.Chamber2/.Imsety/liverJar
+IMLUN=.TombEntrance/.Chamber1/.Chamber2/.Imsety/lungsJar
+IMSTO=.TombEntrance/.Chamber1/.Chamber2/.Imsety/stomachJar
 
 if [ -f "$IMINT" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Imsety/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Imsety/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
 fi
 if [ -f "$IMLIV" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Imsety/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Imsety/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
 fi
 if [ -f "$IMLUN" ]; then
-   mv .TombEntrance/.Chamber1/.Chamber2/Imsety/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
+   mv .TombEntrance/.Chamber1/.Chamber2/.Imsety/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
 fi
 if [ -f "$IMSTO" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Imsety/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Imsety/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
 fi
 #Qebehsenuef Room
-QEINT=.TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/intestinesJar
-QELIV=.TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/liverJar
-QELUN=.TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/lungsJar
-QESTO=.TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/stomachJar
+QEINT=.TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/intestinesJar
+QELIV=.TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/liverJar
+QELUN=.TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/lungsJar
+QESTO=.TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/stomachJar
 
 if [ -f "$QEINT" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/intestinesJar .TombEntrance/.Chamber1/.Chamber2/.intestinesJar
 fi
 if [ -f "$QELIV" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/liverJar .TombEntrance/.Chamber1/.Chamber2/.liverJar
 fi
 if [ -f "$QELUN" ]; then
-   mv .TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
+   mv .TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/lungsJar .TombEntrance/.Chamber1/.Chamber2/.lungsJar
 fi
 if [ -f "$QESTO" ]; then
-    mv .TombEntrance/.Chamber1/.Chamber2/Qebehsenuef/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
+    mv .TombEntrance/.Chamber1/.Chamber2/.Qebehsenuef/stomachJar .TombEntrance/.Chamber1/.Chamber2/.stomachJar
 fi
 
 
-clear
 
 
 
@@ -124,4 +123,7 @@ echo 0 > .TombEntrance/.Chamber1/.numOfRuns.txt
 echo 0 > .TombEntrance/.Chamber1/.Chamber2/.numOfRuns.txt
 echo 0 > .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.numOfRuns.txt
 
+cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh1 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph1
+cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh2 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph2
+cp .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.ogh3 .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.hieroglyph3
 clear

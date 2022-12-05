@@ -1,14 +1,14 @@
  #!/bin/bash
 currPath=$(pwd)
 echo $currPath
-. reset
+. reset.sh
 
 rm .playerInventory/ClayShards
 rm .playerInventory/Headdress
 rm .playerInventory/Wings
 clear
 chmod u+x permissions
-chmod u+x reset
+chmod u+x reset.sh
 export STATUELIVES
 export JARLIVES
 export HIEROLIVES
@@ -27,7 +27,7 @@ export HIEROLIVES
 YELLOW=$(tput setaf 190)
 BLUE=$(tput setaf 12)
 CLR=$(tput sgr0)
-
+RED=$(tput setaf 001)
 
 cat .title
 #https://patorjk.com/software/taag/#p=testall&v=0&f=Epic&t=Temple%20Of%20Osiris
@@ -61,14 +61,16 @@ echo "You are the world's leading ${YELLOW}egyptologist${CLR}"
 echo "Right now represents the defining moment of your career!"
 echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 
-echo "Use the command ${BLUE}ls${CLR} to see the options available.
-Use the command ${BLUE}cat${CLR} to read in-game hints.
-Use the command ${BLUE}cd${CLR} to move rooms.
-Use the command ${BLUE}pwd${CLR} to see where you are.
-Places you can go to are written in uppercase letters.
-Actions you can do are written in lowercase letters and can executed using . (actionName).
-Explore a new area using ${BLUE}. lookAround${CLR}
-To start, do ${BLUE}cd TombEntrance${CLR}"
+echo "Use the command ${BLUE}ls${CLR} to see the options available. It is important to use this command a lot.
+Use the command ${BLUE}cat${CLR} to read in-game HINTS. {${BLUE}cat hint${CLR}}
+Use the command ${BLUE}cd${CLR} to move ROOMS. {${BLUE}cd Room${CLR}}
+Use the command ${BLUE}pwd${CLR} to see where you are. ${BLUE}pwd${CLR}
+Places you can go to are written in UPPERCASE letters. ${BLUE}Room1${CLR}
+Actions you can do are written in LOWERCASE letters and can executed using . ${BLUE}". actionname"${CLR}
+Explore a new area using ${BLUE}". lookAround"${CLR} when its avaliable. ${BLUE}". lookAround"${CLR}
+Check its avaliablity using the ${BLUE}ls${CLR} command. ${BLUE}ls${CLR}
+To start, do ${BLUE}cd TombEntrance${CLR}
+${RED}DO NOT TYPE cd OR cat WITH NOTHING BEHIND IT${CLR}"
 
 #OBJECT STATS
 PS1="2"

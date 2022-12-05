@@ -1,0 +1,13 @@
+#!/bin/bash
+: << 'HIEROGLYPH'
+,-~~\       ||               _                   
+ (   \      ||           __,(: `,_,.          || 
+  |\. \     || .-===-., (.-_-   __ | ....     || 
+ _]_]`\\ .-'_| `.___.'    `----'  -' `=.`''===.' 
+HIEROGLYPH
+#USE YOUR TRANSLATOR TO UNVEIL THESE GLYPHS BY DELETING THE # ON THE NEXT LINE
+#CHANGE TO INSERT MODE WITH I
+#CONFIRM WITH ESC KEY, 'wq!", ENTER KEY
+#mv .translatedglyph2 translatedglyph2
+
+#USE cat TO READ TRANSLATED GLYPHS

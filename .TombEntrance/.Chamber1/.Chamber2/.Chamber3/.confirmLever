@@ -28,7 +28,7 @@ if ((value >= maxRuns)); then
 
     echo "You died."
 
-    cd ../../..
+    cd ../../../..
     break
 else
     newValue=$((value + 1))
@@ -38,7 +38,7 @@ fi
 echo "Attempt ${fileread} out of 3"
  echo "Use Ctrl+D to exit"
 fi
-break
+
     ;;
 
 "No"|"no")
