@@ -134,3 +134,4 @@ mv .TombEntrance/.Chamber1/.Room2/.lookAround .TombEntrance/.Chamber1/.Room2/loo
 mv .TombEntrance/.Chamber1/.Room3/.lookAround .TombEntrance/.Chamber1/.Room3/lookAround
 mv .TombEntrance/.Chamber1/.Chamber2/.lookAround .TombEntrance/.Chamber1/.Chamber2/lookAround
 mv .TombEntrance/.Chamber1/.Chamber2/.Chamber3/.lookAround .TombEntrance/.Chamber1/.Chamber2/.Chamber3/lookAround
+clear
