@@ -62,7 +62,7 @@ echo "Right now represents the defining moment of your career!"
 echo "You have found the ${YELLOW}Temple of Osiris${CLR}"
 
 echo "Use the command ${BLUE}ls${CLR} to see the options available. It is important to use this command a lot.
-Use the command ${BLUE}cat${CLR} to read in-game HINTS. {${BLUE}cat hint${CLR}}
+Use the command ${BLUE}cat${CLR} to read in-game HINTS. {${BLUE}cat hint${CLR}} (CAT HINT)!!!!
 Use the command ${BLUE}cd${CLR} to move ROOMS. {${BLUE}cd Room${CLR}}
 Use the command ${BLUE}pwd${CLR} to see where you are. ${BLUE}pwd${CLR}
 Places you can go to are written in UPPERCASE letters. ${BLUE}Room1${CLR}
